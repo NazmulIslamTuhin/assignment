@@ -1,2 +1,16 @@
-fhgfhdfs
-fhudffjffg
+body{
+    margin: 0;
+}
+.sos-banner{
+    background-image:
+    linear-gradient(to top,#121212 0%,rgb(18, 18, 18, 0)100%)
+    url('images/donation0.jpg');
+    background-repeat: no-repeat;
+    height: 650px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
