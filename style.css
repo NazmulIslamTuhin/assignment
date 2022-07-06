@@ -1,3 +1,5 @@
+/* font family */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,12 +11,14 @@
 .header-full {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(rgba(26, 19, 19, 0.377), rgba(32, 31, 31, 0.5)),
-    url(images/donation0.jpg);
+  background: linear-gradient(
+      rgba(228, 221, 221, 0.651),
+      rgba(90, 73, 73, 0.384)
+    ),
+    url(/images/donation4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
-  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,12 +34,198 @@
   font-size: 6rem;
 }
 .text-aligne-center p {
-  color: #fff;
+  color: rgba(255, 255, 255, 0.986);
   padding-bottom: 40px;
 }
 .text-aligne-center a {
-  background: crimson;
-  padding: 10px 30px;
+  background: rgb(224, 85, 21);
+  padding: 15px 40px;
   color: #fff;
   border-radius: 5px;
+}
+
+/* single section \ donet section start  */
+/* single section \ donet section start  */
+
+.donete-secton-container {
+  text-align: center;
+}
+.donate-writing-h1 h1 {
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-size: 50px;
+  font-weight: 700px;
+  margin-top: 60px;
+}
+.donate-writing-p p {
+  font-family: "poppins", sans-serif;
+  color: #0c0c0c;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.donnet-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.donate-amount-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single-amount {
+  padding: 20px;
+  background: rgba(243, 241, 242, 0.5);
+  margin: 50px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.single-amount-defolt {
+  border: 2px solid salmon;
+}
+.single-amount h4 {
+  color: rgb(156, 133, 133);
+}
+
+.single-element-input-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.single-elemetn-input-item {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(250, 128, 114, 0.425);
+  width: 400px;
+  padding: 10px 20px;
+  outline: none;
+  margin-bottom: 30px;
+}
+.single-element-input-box a {
+  padding: 10px 30px;
+  background: rgb(224, 85, 21);
+  color: #fff;
+}
+::placeholder {
+  text-align: center;
+}
+
+/* single seciton end  */
+/* single seciton end  */
+.donet-plan-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+/* plan box  */
+.donet-plan-box {
+  width: 400px;
+  padding: 40px 0 30px 20px;
+  background: rgb(240, 237, 238);
+  margin: 0 10px;
+  border-radius: 5px;
+}
+/* plan active box  */
+#donet-plan-box-active {
+  background-color: rgb(240, 230, 185);
+}
+.donet-plan-box img {
+  width: 20%;
+  padding-bottom: 30px;
+}
+.donet-plan-box h1 {
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.donet-plan-box p {
+  padding-right: 30px;
+}
+/* get update secton start  */
+.get-update-secton-full-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.get-update-content {
+  width: 900px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(107, 106, 83);
+}
+.update-input {
+  width: 300px;
+  height: 40px;
+  padding: 0 20px;
+  border: 1px solid salmon;
+}
+.input-button {
+  width: 130px;
+  padding: 11px 0;
+  background: rgb(224, 85, 21);
+  color: #fff;
+  text-align: center;
+}
+/* get update section end  */
+
+/* live defents secton start  */
+/* live defents secton start  */
+/* live defents secton start  */
+.live-depend {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  /* align-items: center; */
+}
+.live-depend-write {
+  width: 30%;
+  padding-left: 50px;
+}
+.live-depend-write h1 {
+  font-size: 36px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.live-depend-write p {
+  padding-right: 100px;
+  margin-bottom: 30px;
+}
+.live-depend-write a {
+  background: rgb(224, 85, 21);
+  padding: 15px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+.live-depend-image {
+  width: 30%;
+}
+.live-depend-image img {
+  width: 100%;
+}
+/* live defants secton end  */
+/* live defants secton end  */
+/* live defants secton end  */
+footer {
+  height: 177px;
+  background-color: #0b0d17;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer h1 {
+  font-family: "Lobster", cursive;
+  color: #ff5959;
+  font-size: 30px;
+}
+footer p {
+  font-family: monospace;
+  color: #707070;
+  font-size: 14px;
+  margin-top: 20px;
 }
